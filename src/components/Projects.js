@@ -1,9 +1,11 @@
 import React from 'react'
+import Container from '@material-ui/core/Container';
+import '../style/About.css';
 
 export default function Projects() {
     return (
-        <div style={{color: "white"}}>
-            <h1>Projects</h1>
-        </div>
+        <Container className="aboutBody">
+            Projects
+        </Container>
     )
 }

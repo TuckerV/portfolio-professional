@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import './style/App.css';
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -62,8 +62,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     backgroundColor: "#22533E",
-    background: "rgba(76, 175, 80, 0.3)",
-    fontStyle: "italic", 
+    background: "rgba(76, 175, 80, 0.3)"
     
   },
 }));
@@ -79,26 +78,26 @@ export default function NavTabs() {
   return (
     <div className="applyAll">
       <Navbar style={classes.root}/>
-      <AppBar position="static" className={classes.root} id="opChange">
+      <AppBar position="static" id="opChange">
         <Tabs
           variant="fullWidth"
           value={value}
-          onChange={handleChange}
+          onChange={handleChange}      
           aria-label="nav tabs example"
         >
-          <LinkTab label="About" {...a11yProps(0)} />
-          <LinkTab label="Contact"  {...a11yProps(1)} />
-          <LinkTab label="Projects"  {...a11yProps(2)} />
+          <LinkTab style={{height: "5vw"}} label="About" {...a11yProps(0)} />
+          <LinkTab style={{height: "5vw"}} label="Contact + Resume"  {...a11yProps(1)} />
+          <LinkTab style={{height: "5vw"}} label="Projects"  {...a11yProps(2)} />
         </Tabs>
       </AppBar>
         <TabPanel value={value} index={0}>
-             <Contact />
+          <About />
         </TabPanel>
-        <TabPanel value={value} index={1}>
-             <Projects />
+        <TabPanel value={value} index={1}>             
+          <Contact />
         </TabPanel>
         <TabPanel value={value} index={2}>
-             <About />
+          <Projects />
         </TabPanel>
     </div>
   );
