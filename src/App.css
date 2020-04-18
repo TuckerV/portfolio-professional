@@ -44,3 +44,11 @@
 .makeGreen {
   background-color: green;
 }
+
+#opChange {
+  background: rgba(76, 175, 80, 0.0);
+}
+
+.applyAll {
+  font-family: 'Amatic SC' cursive;
+}

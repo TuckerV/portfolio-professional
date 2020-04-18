@@ -15,7 +15,6 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import { green } from "@material-ui/core/colors";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -62,7 +61,10 @@ function LinkTab(props) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "green",
+    backgroundColor: "#22533E",
+    background: "rgba(76, 175, 80, 0.3)",
+    fontStyle: "italic", 
+    
   },
 }));
 
@@ -75,18 +77,18 @@ export default function NavTabs() {
   };
 
   return (
-    <div >
+    <div className="applyAll">
       <Navbar style={classes.root}/>
-      <AppBar position="static" className={classes.root}>
+      <AppBar position="static" className={classes.root} id="opChange">
         <Tabs
           variant="fullWidth"
           value={value}
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <LinkTab label="Page One" {...a11yProps(0)} />
-          <LinkTab label="Page Two"  {...a11yProps(1)} />
-          <LinkTab label="Page Three"  {...a11yProps(2)} />
+          <LinkTab label="About" {...a11yProps(0)} />
+          <LinkTab label="Contact"  {...a11yProps(1)} />
+          <LinkTab label="Projects"  {...a11yProps(2)} />
         </Tabs>
       </AppBar>
         <TabPanel value={value} index={0}>
@@ -101,40 +103,3 @@ export default function NavTabs() {
     </div>
   );
 }
-
-// export default function App() {
-
-  
-//   return (
-//     <Router>
-//       <div>
-//         <Navbar />
-
-//         <Grid container >
-          
-//         <Button variant="contained" color="primary">
-//           <Link to="/">About</Link>
-//         </Button>
-//         <Button variant="contained" color="secondary">
-//           <Link to="/contact">Contact</Link>
-//         </Button>
-//         <Button variant="contained" color="primary">
-//           <Link to="/projects">Projects</Link>
-//         </Button>
-
-//         <Switch>
-//           <Route path="/contact">
-//             <Contact />
-//           </Route>
-//           <Route path="/projects">
-//             <Projects />
-//           </Route>
-//           <Route path="/">
-//             <About />
-//           </Route>
-//         </Switch>
-//         </Grid>
-//       </div>
-//     </Router>
-//   );
-// }
