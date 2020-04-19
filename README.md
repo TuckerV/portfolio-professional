@@ -16,9 +16,9 @@ I was motivated to build this webpage to create a profile for myself, where I ca
 
 ### features
 
-![Image description](./images/screenshot_about.png)
-![Image description](./images/contact.png)
-![Image description](./images/screenshot_projects.png)
+![Image description](https://github.com/TuckerV/portfolio-professional/blob/master/src/images/screenshot_about.png?raw=true)
+![Image description](https://github.com/TuckerV/portfolio-professional/blob/master/src/images/screenshot_contact.png?raw=true)
+![Image description](https://github.com/TuckerV/portfolio-professional/blob/master/src/images/screenshot_projects.png?raw=true)
 
 My profile has a few simple features that allows the user to easily navigate through my works. On the left there are tabs that the user can click through to go to the different pages that show my work, and contact information. On the contact page there are also icons that act as links to my github, linkedin, and instagram. 
 
