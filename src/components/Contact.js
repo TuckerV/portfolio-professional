@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 import '../style/About.css';
+import Pdf from '../pdf/resume.pdf';
 
 export default function Contact() {
 
@@ -23,7 +23,7 @@ export default function Contact() {
                         <p>
                             Phone: 206-550-4761
                         </p>
-                        <a target="_blank" href="../pdf/resume.pdf">
+                        <a target="_blank" href={Pdf}>
                             Resume
                         </a>
                         </div>
