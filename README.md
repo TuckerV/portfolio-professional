@@ -1,5 +1,5 @@
-# updated-portfolio
-Updated personal portfolio, including recent projects and professional information. 
+# portfolio-professional
+Updated professional portfolio, including recent projects and professional information. 
 
 ## Link to Deployed page
 https://tuckerv.github.io/portfolio-professional/
@@ -16,9 +16,9 @@ I was motivated to build this webpage to create a profile for myself, where I ca
 
 ### features
 
-![Image description]()
-![Image description]()
-![Image description]()
+![Image description](./images/screenshot_about.png)
+![Image description](./images/contact.png)
+![Image description](./images/screenshot_projects.png)
 
 My profile has a few simple features that allows the user to easily navigate through my works. On the left there are tabs that the user can click through to go to the different pages that show my work, and contact information. On the contact page there are also icons that act as links to my github, linkedin, and instagram. 
 
