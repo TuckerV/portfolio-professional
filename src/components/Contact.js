@@ -23,7 +23,7 @@ export default function Contact() {
                         <p>
                             Phone: 206-550-4761
                         </p>
-                        <a target="_blank" href={Pdf}>
+                        <a target="_blank" rel="noopener noreferrer" href={Pdf}>
                             Resume
                         </a>
                         </div>
@@ -31,17 +31,17 @@ export default function Contact() {
                     
                         <div className="row justify-content-center devBorder">
                             <div className="col-2">
-                                <a target="_blank" className="iconEdit" href="https://www.instagram.com/tuckvassau">
+                                <a target="_blank" rel="noopener noreferrer" className="iconEdit" href="https://www.instagram.com/tuckvassau">
                                     <i className="fab fa-instagram icon"></i>
                                 </a>
                             </div>
                             <div className="col-2">
-                                <a target="_blank" className="iconEdit" href="https://github.com/TuckerV">
+                                <a target="_blank" rel="noopener noreferrer" className="iconEdit" href="https://github.com/TuckerV">
                                     <i className="fab fa-github icon"></i>
                                 </a>
                             </div>
                             <div className="col-2">
-                                <a target="_blank" className="iconEdit" href="https://www.linkedin.com/in/tucker-vassau/">
+                                <a target="_blank" rel="noopener noreferrer" className="iconEdit" href="https://www.linkedin.com/in/tucker-vassau/">
                                     <i className="fab fa-linkedin icon"></i>
                                 </a>
                             </div>
