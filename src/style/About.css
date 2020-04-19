@@ -5,3 +5,25 @@
     padding: 20px;
     color: black;
 }
+
+.profile-pic {
+    float: left !important;
+    height:1.5;
+    width: 40%;
+    max-width: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.div-title {
+    font-family: 'Amatic SC' cursive !important;
+    font-size: 3vw;
+    color: black;
+    border-bottom: red 3px solid;
+    text-align: center;
+}
+.row-about {
+    margin-top: 20px;
+    font-size: 15pt;
+}
