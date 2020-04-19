@@ -7,7 +7,7 @@ export default function Navbar(props) {
     return (
         <AppBar className={props.style} position='static'>
             <Toolbar>
-                <Typography variant="h3" className="titleFont" align="center">
+                <Typography variant="h3" className="titleFont titleSize" align="center">
                     Tucker Vassau
                 </Typography>
             </Toolbar>

@@ -46,13 +46,18 @@
 }
 
 #opChange {
-  background: rgba(76, 175, 80, 0.0);
+  background: rgba(75, 149, 78, 0);
 }
 
 .applyAll {
-  font-family: 'Amatic SC' cursive;
+  font-family: 'Amatic SC' cursive !important;
 }
 
-AppBar:hover {
-  font-size: 20px;
+.titleFont {
+  font-family: 'Amatic SC', cursive !important;
+}
+
+.tabSize{
+  height: 4vw;
+  font-size: 30px !important;
 }

@@ -85,9 +85,9 @@ export default function NavTabs() {
           onChange={handleChange}      
           aria-label="nav tabs example"
         >
-          <LinkTab style={{height: "5vw"}} label="About" {...a11yProps(0)} />
-          <LinkTab style={{height: "5vw"}} label="Contact + Resume"  {...a11yProps(1)} />
-          <LinkTab style={{height: "5vw"}} label="Projects"  {...a11yProps(2)} />
+          <LinkTab className="titleFont tabSize" label="About" {...a11yProps(0)} />
+          <LinkTab className="titleFont tabSize" label="Contact"  {...a11yProps(1)} />
+          <LinkTab className="titleFont tabSize" label="Projects"  {...a11yProps(2)} />
         </Tabs>
       </AppBar>
         <TabPanel value={value} index={0}>

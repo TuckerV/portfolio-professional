@@ -1,5 +1,7 @@
 .titleFont {
     font-family: 'Amatic SC', cursive !important;
+}
+.titleSize {
     font-size: 6vw !important;
     padding: 1vw !important;
 }
